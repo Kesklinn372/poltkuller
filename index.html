@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#fcfcf8] group/design-root overflow-x-hidden"
+        style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <header
+                class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f4e6] px-10 py-3">
+                <div class="flex items-center gap-4 text-[#1c1c0d]">
+                    <div>
+                        <img src="img/logo.png" alt="Logo" width="180" height="120">
+                    </div>
+                </div>
+            </header>
+
+            <div class="px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="@container">
+                        <div class="@[480px]:p-4">
+                            <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
+                                style='background-image: url("img/lightwebp.webp");'>
+
+                                <div class="flex flex-col gap-2 text-center">
+                                    <h1
+                                        class="text-black text-4xl font-white leading-tight tracking-[-0.033em] drop-shadow-xl">
+                                        Станьте курьером еды
+                                    </h1>
+                                    <h2 class="text-black text-sm leading-normal drop-shadow-xl">
+                                        Заработайте с нами и работайте по удобному графику
+                                    </h2>
+                                </div>
+                                <a href="#section1"
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#f9f506] text-[#1c1c0d] text-sm font-bold">
+                                    Контакты
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-10 px-4 py-10 @container">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-[#1c1c0d] text-[32px] font-bold leading-tight">
+                                Преимущества доставки с нами
+                            </h1>
+                            <p class="text-[#1c1c0d] text-base leading-normal">Присоединяйтесь к нашей команде и
+                                добивайтесь успеха</p>
+                        </div>
+
+                        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Простая регистрация</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">Поможем с регистрацией</p>
+                            </div>
+
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Бесплатная сумка</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">Отличная сумка в подарок</p>
+                            </div>
+
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Гибкий график</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">Работай когда удобно тебе</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-col gap-10 px-4 py-10 @container">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-[#1c1c0d] text-[32px] font-bold leading-tight">
+                                Этапы оформления
+                            </h1>
+                            <p class="text-[#1c1c0d] text-base leading-normal">Прежде чем начать доставлять еду, нужно
+                                пройти некоторые этапы</p>
+                        </div>
+
+                        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Оформить LHV
+                                    предпринимательский счёт</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">lhv.ee/et/ettevotluskonto
+                                </p>
+                            </div>
+
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Зарегистрировать Bolt
+                                    Courier аккаунт</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">bolt.eu/et-ee/food/courier</p>
+                            </div>
+
+                            <div class="flex flex-col gap-3 rounded-lg border border-[#e9e8ce] bg-[#fcfcf8] p-4">
+                                <h2 class="text-[#1c1c0d] text-base font-bold leading-tight">Пройти Bolt Courier
+                                    обучение</h2>
+                                <p class="text-[#9e9d47] text-sm leading-normal">Затем у тебя будет аккаунт и сумка и
+                                    можно зарабатывать</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="text-[#1c1c0d] text-[22px] font-bold px-4 pb-3 pt-5">
+                        Специальное предложение
+                    </h2>
+
+                    <div class="p-4 @container">
+                        <div class="flex flex-col rounded-lg @xl:flex-row">
+                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                                style='background-image: url("img/poltinfo.png");'>
+                            </div>
+
+                            <div class="flex w-full flex-col gap-1 py-4 @xl:px-4">
+                                <p class="text-[#1c1c0d] text-lg font-bold leading-tight">
+                                    Получите бесплатную сумку и бонус!
+                                </p>
+                                <p class="text-[#9e9d47] text-base leading-normal">
+                                    Используйте промокод: RC13703
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="text-[#1c1c0d] text-[22px] font-bold px-4 pb-3 pt-5">
+                        Условия
+                    </h2>
+
+                    <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+                        <div class="col-span-2 border-t border-[#e9e8ce] py-5">
+                            <p class="text-[#9e9d47] text-sm">Promo код</p>
+                            <p class="text-[#1c1c0d] text-sm">RC13703</p>
+                        </div>
+                        <div class="col-span-2 border-t border-[#e9e8ce] py-5">
+                            <p class="text-[#9e9d47] text-sm">Подарок</p>
+                            <p class="text-[#1c1c0d] text-sm">Сумка Bolt Food</p>
+                        </div>
+                        <div class="col-span-2 border-t border-[#e9e8ce] py-5">
+                            <p class="text-[#9e9d47] text-sm">Требования</p>
+                            <p class="text-[#1c1c0d] text-sm">10 заказов за 14 дней</p>
+                        </div>
+                        <div class="col-span-2 border-t border-[#e9e8ce] py-5">
+                            <p id="section1" class="text-[#9e9d47] text-sm">Контакты</p>
+
+                            <p class="text-[#1c1c0d] text-sm">poltkuller@outlook.com</p>
+                            <p>Telegram &nbsp;&nbsp;@kesklinn</p>
+                        </div>
+                    </div>
+
+                    <footer class="text-center py-10">
+                        <p class="text-[#9e9d47] text-base">© 2025 Polt Courier. All rights reserved.</p>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
